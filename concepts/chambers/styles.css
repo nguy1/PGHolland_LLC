@@ -133,13 +133,11 @@ h2 { margin: 0 0 0.6rem; font-size: 1.25rem; }
   align-items: start;
 }
 .photo {
-  min-height: 12rem;
-  background: linear-gradient(160deg, #2f6f62, #1a2430);
-  color: #e8d3b4;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  font-size: 0.9rem;
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center top;
+  background: #1a2430;
 }
 .btn {
   display: inline-block;

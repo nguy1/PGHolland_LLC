@@ -8,12 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .review-flag {
+        margin: 0;
+        padding: 0.45rem 1rem;
+        background: #f6efe0;
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+      }
+      .review-flag a { color: #0b2140; }
+    </style>
   </head>
   <body>
     <p class="review-flag"><a href="../">All directions</a> · Letterhead (review only)</p>
     <header class="mast">
-      <p class="seal">Illinois</p>
       <p class="firm">PGHolland LLC</p>
       <p class="rule-label">Attorney at Law</p>
       <nav>
@@ -63,25 +72,31 @@
       </section>
 
       <section id="about" class="about">
-        <blockquote>
-          Advice framed for how companies actually decide, negotiate, and operate.
-        </blockquote>
+        <figure class="portrait">
+          <img src="../../assets/headshot.png" width="320" height="320" alt="Portrait of the attorney at PGHolland LLC" />
+        </figure>
         <div>
           <h2>About</h2>
           <p>
-            PGHolland LLC is a single-attorney Illinois practice. The work is
-            shaped by former in-house general counsel experience, not only by
-            a traditional firm seat.
+            PGHolland LLC is a single-attorney Illinois practice managed by
+            Phillippe Holland. The work is shaped by former in-house general
+            counsel experience, not only by a traditional firm seat.
           </p>
           <p>J.D., Northwestern University Pritzker School of Law.</p>
           <p>B.S.F.S. in International Economics, Georgetown University.</p>
-          <p>Licensed to practice in Illinois. Headshot and logo to come.</p>
+          <p>Licensed to practice in Illinois.</p>
+          <p>
+            <a class="linkedin" href="https://www.linkedin.com/in/pgholland/" rel="noopener noreferrer">LinkedIn</a>
+          </p>
         </div>
       </section>
 
       <section id="contact" class="contact">
         <h2>Contact</h2>
         <a href="mailto:info@pghollandlaw.com">info@pghollandlaw.com</a>
+        <p>
+          <a class="linkedin-light" href="https://www.linkedin.com/in/pgholland/" rel="noopener noreferrer">linkedin.com/in/pgholland</a>
+        </p>
         <p>Sending a message does not create an attorney-client relationship.</p>
       </section>
     </main>
