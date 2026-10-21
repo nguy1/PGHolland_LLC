@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /concepts/
 
 Sitemap: https://pghollandlaw.com/sitemap.xml

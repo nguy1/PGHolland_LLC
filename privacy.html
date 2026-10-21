@@ -3,20 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy | PGHolland LLC</title>
+    <title>Privacy &amp; disclaimers | PGHolland LLC</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230B1F3A' width='32' height='32'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='Georgia,serif' fill='%23D4A017'%3EPG%3C/text%3E%3C/svg%3E" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="mast">
       <p class="firm">PGHolland LLC</p>
-      <p class="rule-label">Attorney at Law</p>
+      <p class="rule-label">Phil Holland, Attorney at Law</p>
       <nav aria-label="Primary">
         <a href="/">Home</a>
-        <a href="/#contact">Contact</a>
       </nav>
-      <h1>Privacy</h1>
+      <h1>Privacy &amp; disclaimers</h1>
+      <p class="standfirst">
+        Transactions, commercial contracts, M&amp;A, governance, and licensing for your business.
+      </p>
     </header>
-    <main>
+    <main id="main">
+      <h2>Disclaimers</h2>
+      <p>
+        The content of this website is intended to convey general information
+        about PGHolland LLC and should not be relied upon as legal advice. It
+        is not an offer to represent you, nor is it intended to create an
+        attorney-client relationship. The content of any e-mail sent to
+        PGHolland LLC at the e-mail address set forth on this website will not
+        create an attorney-client relationship and will not be treated as
+        confidential. All rights reserved.
+      </p>
       <h2>What this site collects</h2>
       <p>
         PGHolland LLC operates pghollandlaw.com. If you email the firm or
@@ -29,17 +43,20 @@
         technical data such as IP address and browser type.
       </p>
       <p>
-        Sending a message through this site does not create an attorney-client
-        relationship. Please do not send confidential information until that
-        relationship is established.
-      </p>
-      <p>
-        Questions: <a href="mailto:info@pghollandlaw.com">info@pghollandlaw.com</a>
+        Questions: <a href="mailto:phil@pghollandlaw.com">phil@pghollandlaw.com</a>
       </p>
     </main>
     <footer>
-      Attorney advertising. PGHolland LLC is licensed to practice law in Illinois.
-      <a href="/">Home</a>
+      <p>Sending a message does not create an attorney-client relationship.</p>
+      <p>
+        Attorney advertising. This website is for general information only and is not legal advice.
+        Prior results do not guarantee a similar outcome. PGHolland LLC is licensed to practice law
+        in Illinois.
+      </p>
+      <p>&copy; <span id="year"></span> PGHolland LLC.</p>
     </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

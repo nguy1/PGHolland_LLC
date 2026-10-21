@@ -14,8 +14,6 @@ python3 -m http.server 5173
 
 http://localhost:5173
 
-Design drafts (not for search engines): `concepts/`
-
 ## Launch checklist (later this week)
 
 Do this **on launch day**, in order. Design can keep changing until then.
